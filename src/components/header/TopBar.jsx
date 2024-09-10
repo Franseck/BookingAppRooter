@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 import logo from "../../assets/logo.png"
+import "../../components/header/header.scss"
 
 const TopBar = () => {
   return (

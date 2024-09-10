@@ -4,7 +4,7 @@ import { Carousel } from 'react-bootstrap';
 import palm from "../../assets/book.jpeg"
 import hk from "../../assets/hm.jpg"
 import bg from "../../assets/bg.jpeg"
-
+import "../../components/header/header.scss"
 
 const Header= ()=>  {
   return (

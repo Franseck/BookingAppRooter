@@ -3,6 +3,7 @@ import Col from "react-bootstrap/esm/Col";
 import Row from "react-bootstrap/Row";
 import { TiDelete } from "react-icons/ti";
 import img from "../../assets/book.jpeg"
+import "../../components/main/booking.scss"
 
 function BookingList ({ bookings, handleDelete, handleDoubleClick }) {
   return (
