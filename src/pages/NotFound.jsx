@@ -9,7 +9,7 @@ const navigate =useNavigate()
 
 
   return (
-    <Container className="text-center">
+    <Container>
       <img src={notFound} alt="" width="350px" />
 
      <hr />
