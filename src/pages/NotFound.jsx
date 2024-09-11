@@ -10,7 +10,7 @@ const navigate =useNavigate()
 
   return (
     <Container className="text-center">
-      <img src={notFound} alt="" width="550px" />
+      <img src={notFound} alt="" width="450px" />
 
      <hr />
         <button onClick={()=>navigate("/")} className="btn btn-info">Nothing here ! Go  Home</button>
