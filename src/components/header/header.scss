@@ -37,7 +37,6 @@ border-radius: 1rem;
     color: #db9106;
 }
 .car {
-  justify-content: center;
   width: 35rem;
 }
 .container1 .vacaya {
@@ -71,7 +70,11 @@ Button {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 5rem;
+  gap: 2rem;
+}
+
+.alone{
+  width: 15rem;
 }
 .lastLogo {
   width: 6rem;

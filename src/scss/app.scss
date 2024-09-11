@@ -7,15 +7,61 @@
 
 
   
-  @media only screen and (max-width: 538px) {
-    .App {
-      width: auto;
-    }
-  }    
-  @media only screen and (max-width: 875px) {
-    .hotel {
-flex-wrap: wrap;
-    }
-  }    
+@media only screen and (max-width: 1320px) {
 
+.car img{
+ width:80%;
+}
  
+  }
+@media only screen and (max-width: 1105px) {
+
+.car img{
+ width:60%;
+}
+ .alone {
+  width: 13rem;
+  
+ }
+.palmli {
+  gap: 0rem;
+}
+  }
+@media only screen and (max-width: 977px) {
+
+
+ .alone {
+  width: 10rem;
+  
+ }
+
+  }
+@media only screen and (max-width: 880px) {
+
+  .car {
+    width:40%;
+   }
+   .car img{
+    width:100%;
+   }
+    .alone {
+     width: 9rem;
+     
+    }
+.palmli {
+  margin-bottom:5rem ;
+}
+
+}
+
+@media only screen and (max-width: 535px) {
+
+.palmli{
+  flex-direction: column;
+  gap: 3rem;
+}
+Button{
+  width: 15rem;
+  font-size: 0.2rem;
+}
+  }

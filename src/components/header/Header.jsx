@@ -18,9 +18,9 @@ const Header= ()=>  {
   return (
     <div className='container1 text-center'>
       <div className='palmli'>
-         <img src={alone} alt="" width={300}/>
+         <img src={alone} alt="" className='alone'/>
             <Carousel className='car'  fade autoPlay={true} interval={1500}>
-      <Carousel.Item className='pic'>
+      <Carousel.Item>
         <img className="carimg" src={palm} alt="" />
       </Carousel.Item>
       <Carousel.Item>
@@ -39,7 +39,7 @@ const Header= ()=>  {
         <img className="carimg" src={res} alt="" />
       </Carousel.Item>
     </Carousel>
-    <img src={alone} alt="" width={300}/>
+    <img src={alone} alt="" className='alone'/>
     </div>
     <Button><NavLink
             className="vacaya"
