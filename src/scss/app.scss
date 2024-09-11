@@ -1,80 +1,64 @@
 @import "./reset";
-@import  "./variables";
-@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Glass+Antiqua&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+@import "./variables";
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Glass+Antiqua&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap");
 
-
-
-  
 @media only screen and (max-width: 1320px) {
-
-.car img{
- width:80%;
-}
- 
+  .car img {
+    width: 80%;
   }
+}
 @media only screen and (max-width: 1105px) {
-
-.car img{
- width:60%;
-}
- .alone {
-  width: 13rem;
-  
- }
-.palmli {
-  gap: 0rem;
-}
+  .car img {
+    width: 60%;
   }
+  .alone {
+    width: 13rem;
+  }
+  .palmli {
+    gap: 0rem;
+  }
+}
 @media only screen and (max-width: 977px) {
-
-
- .alone {
-  width: 10rem;
-  
- }
-
+  .alone {
+    width: 10rem;
   }
-@media only screen and (max-width: 880px) {
-
-  .car {
-    width:40%;
-   }
-   .car img{
-    width:100%;
-   }
-    .alone {
-     width: 9rem;
-     
-    }
-.palmli {
-  margin-bottom:5rem ;
 }
-
+@media only screen and (max-width: 880px) {
+  .car {
+    width: 40%;
+  }
+  .car img {
+    width: 100%;
+  }
+  .alone {
+    width: 9rem;
+  }
+  .palmli {
+    margin-bottom: 5rem;
+  }
 }
 
 @media only screen and (max-width: 535px) {
-
-.palmli{
-  flex-direction: column;
-  gap: 3rem;
-}
-Button{
-  width: 15rem;
-  font-size: 0.2rem;
-}
-.car {
-  width:70%;
- }
- .top{
-  display: flex;
-flex-direction: column;
-  align-items: center;
-    text-align: center;
- }
- .topic{
-  font-size: 1.2rem;
-
- }
+  .palmli {
+    flex-direction: column;
+    gap: 3rem;
   }
+  Button {
+    width: 15rem;
+    font-size: 0.2rem;
+  }
+  .car {
+    width: 70%;
+  }
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .topic {
+    font-size: 1.2rem;
+  }
+}
