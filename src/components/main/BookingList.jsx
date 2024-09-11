@@ -5,6 +5,7 @@ import { TiDelete } from "react-icons/ti";
 import img from "../../assets/book.jpeg"
 import "../../components/main/booking.scss"
 
+
 function BookingList ({ bookings, handleDelete, handleDoubleClick }) {
   return (
     <div>
@@ -65,6 +66,8 @@ function BookingList ({ bookings, handleDelete, handleDoubleClick }) {
           }
         )}
       </Container>
+      
+
     </div>
   );
 }

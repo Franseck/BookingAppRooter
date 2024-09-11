@@ -8,16 +8,15 @@ justify-content: center;
     align-items: center;
     padding: 0.5% 8%;
 background-position: center center;
-background-image: url(../../assets/book.jpeg);
+background-image: url(../../assets/1.jpg);
 background-size: cover;
 background-repeat: no-repeat;
-
 
   }
   
 
   .hotels-list {
-background-color: rgba(136, 136, 136,0.5);
+background-color: rgba(94, 131, 102, 0.5);
     margin: 0.5rem;
     padding: 1rem;
     display: flex;
@@ -29,10 +28,9 @@ align-items: center;
     border-radius: 1rem;
   }
     .hotels-list:hover {
-    background-color: rgba(52, 79, 87, 0.5);
+    background-color: rgba(32, 67, 78, 0.5);
   }
   .hotel {
-    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
 justify-content: center;
@@ -107,9 +105,13 @@ align-items: center;
     font-weight: bolder;
     cursor: pointer;
     margin-top: 3px;
-  }
+    }
   .hotel__see-rooms:hover {
-    box-shadow: 0 0 1px 1px #333;
+    box-shadow:  1px 1px ;
+    color:brown
+  }
+  .nor{
+    text-decoration: none;
   }
   .hotel__best-seller-flag {
     position: absolute;

@@ -6,42 +6,8 @@
 
 
 
-
-
-  .filters {
-    width: 80%;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 16px 5px;
-    margin-left: 8%;
-    margin-bottom: 40px;
-    background-color: rgb(209, 173, 173);
-  }
-  .filters__header {
-    margin: 0;
-    padding: 8px 5px;
-    font-size: 16px;
-  }
-  .filters-list {
-    margin: 0;
-    padding: 0;
-  }
-  .filter {
-    display: flex;
-    justify-content: space-between;
-    margin: 5px 0;
-  }
-  .filter__checkbox {
-    margin-right: 10px;
-  }
   
-  .filter__match-count {
-    color: #888;
-  }
-  
- 
-  
-  @media only screen and (max-width: 1120px) {
+  @media only screen and (max-width: 538px) {
     .App {
       width: auto;
     }

@@ -23,7 +23,7 @@ const HeaderLast = () => {
   <div class="row3 mt-5">
   <div class="col-md-12 text-center">
   <h1 class="copyright">
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+  Copyright &copy;
 All rights reserved  </h1> 
    <hr />
    <h1>This WebPage made and Photos are taken by Seckin Ozturk

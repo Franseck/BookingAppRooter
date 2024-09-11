@@ -1,120 +1,117 @@
 @import "../../scss/variables";
 
-.top{
-    font-family: "Nothing You Could Do", cursive;
- background-color: navajowhite;
-  border-radius: 1rem;
-}
-.tops{
-  gap: 0.2rem;
-  
-}
-.navbar{
-    background-color: #333;
-  }
-  .topic{
-    margin-left: 5rem;
-    }
-.carimg{
-   width: 100%;
-    
-   
-}
-
-.logopalm{
-  width: 5rem;  
-}
-
-.nav-link{
-  background-color: #7f9124;
-width: 8rem;
-text-align: center;
-font-size: 1rem;
+.top {
+  font-family: "Nothing You Could Do", cursive;
+  background-color: navajowhite;
 border-radius: 1rem;
+
+}
+.tops {
+  gap: 1rem;
+}
+.navbar {
+  background-color: #333;
+}
+.topic {
+  margin-left: 5rem;
+}
+.carimg {
+  width: 100%;
 }
 
-  .car{
-justify-content: center;
-width: 35rem;
+.logopalm {
+  width: 5rem;
+}
 
+.nav-link {
+  background-color: #7f9124;
+  width: 5rem;
+  text-align: center;
+  align-items: center;
+  font-size: 1rem;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 5px 5px;
+}
+.nav-link:hover{
+    background-color: #333;
+    color: #db9106;
+}
+.car {
+  justify-content: center;
+  width: 35rem;
+}
+.container1 .vacaya {
+  color: rgb(170, 192, 203);
+  letter-spacing: 1rem;
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: 900;
+  margin-top: 5rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
 
-  }
-  .container1 .vacaya {
- 
-    color: rgb(170, 192, 203);
-    letter-spacing: 1rem;
-    font-family: "Nothing You Could Do", cursive;
-    font-weight: 900;
-    margin-top: 5rem;
-    font-size: 1.2rem;
-    text-decoration: none;
+Button {
+  box-shadow: 5px 5px 10px 10px;
 
-         }
-
-Button{
-    box-shadow: 5px 5px 10px 10px;
 }
 .vacaya:hover {
-    background-color: #db9106;
-    color: #333;
+  background-color: navajowhite;
+  color: #333;
+    border-radius: 1.5rem;
+    padding: 0.7rem;
+
 }
-.container1{
+.container1 {
   background-color: #333;
- }
-
- .palmli{
-
- padding-top: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-      flex-wrap: wrap;
-      gap: 5rem;
-
- }
- .lastLogo {
-  width: 6rem;
-  padding-bottom: 2rem;  
- }
-
-
-  
-  .footer-07 {
-    background-color: #333;
-    margin-top: 5rem;
-     }
-
-
-    .footer-07 p {
-      color: rgba(255, 255, 255, 0.3); 
-    }
-    .footer-07 .footer-heading {
-      font-size: 1.5rem;
-      color: #fff;
-      margin-bottom: 1rem; 
-    margin-top:1rem; 
-    font-family: "Nothing You Could Do", cursive;
 }
- 
-    .footer-07 .menu {
-      margin-bottom: 2rem; 
- 
-    }
-      .footer-07 .menu a {
-        color: rgba(255, 255, 255, 0.6);
-        margin: 0 1rem;
-        letter-spacing: 1px; 
-               display: flex;
-               justify-content: center;
-        font-family: "Glass Antiqua", cursive;
-    }
+
+.palmli {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+.lastLogo {
+  width: 6rem;
+  padding-bottom: 2rem;
+}
+
+.footer-07 {
+  background-color: #333;
+  margin-top: 5rem;
+}
+
+.footer-07 p {
+  color: rgba(255, 255, 255, 0.3);
+}
+.footer-07 .footer-heading {
+  font-size: 1.5rem;
+  color: navajowhite;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-family: "Nothing You Could Do", cursive;
+}
+
+.footer-07 .menu {
+  margin-bottom: 2rem;
+}
+.footer-07 .menu a {
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 1rem;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  font-family: "Glass Antiqua", cursive;
+  text-decoration: none;
+}
 
 h1.copyright {
-    color: #fff;
-    font-size: 0.9rem;
+  color: #fff;
+  font-size: 0.9rem;
 }
 .row3 h1 {
-    color: #db9106;
-    font-family: "Annie Use Your Telescope", cursive;
+  color: navajowhite;
+  font-family: "Annie Use Your Telescope", cursive;
 }
-  

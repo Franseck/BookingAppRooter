@@ -1,6 +1,8 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { NavLink } from 'react-router-dom';
+import {Button} from 'react-bootstrap';
 import { hotels } from "../../helper/data.js";
 import Perk from "../addition/Perk.jsx"
 import Roomsleft from "../addition/Roomsleft.jsx";
@@ -76,9 +78,12 @@ const Hotels = ({handleAdd}) => {
                 per night
               </span>
               <span>Includes taxes and charges</span>
-              <button className="hotel__see-rooms">
-                See our last available rooms
-              </button>
+              <Button className="hotel__see-rooms"><NavLink
+            className="nor"
+              to="/NotFound"
+                          >
+            See our last available rooms
+            </NavLink></Button>
             </div>
           </div>
         </div>
